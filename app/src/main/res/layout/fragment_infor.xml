@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/backg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.project.customTextview.DancingSTextView
+            android:id="@+id/textViewName"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#E91E63"
+            android:textSize="30sp"
+            android:text="Ten: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.example.project.customTextview.DancingSTextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/textViewNamThanhLap"
+            android:textColor="#C37604"
+            android:layout_marginLeft="55dp"
+            android:textSize="30sp"
+            android:text="Nam thanh lap: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.example.project.customTextview.DancingSTextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/textViewLinhVuc"
+            android:layout_marginLeft="55dp"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            android:text="Linh vuc: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.example.project.customTextview.DancingSTextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/textViewTruSo"
+            android:layout_marginLeft="55dp"
+            android:textColor="#03A9F4"
+            android:textSize="30sp"
+            android:text="Tru So: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
